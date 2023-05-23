@@ -1,0 +1,240 @@
+2023-05-19 13:29:36,211 [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(onApplicationEvent:211) - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-19 13:29:36,403 [Thread-24] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(destroy:651) - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 13:29:36,617 [Thread-24] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter(destroy:224) - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-19 13:29:37,053 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate(registerRepositoriesIn:132) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-19 13:29:37,058 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate(registerRepositoriesIn:201) - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-05-19 13:29:37,130 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer(initialize:108) - Tomcat initialized with port(s): 8080 (http)
+2023-05-19 13:29:37,152 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(prepareWebApplicationContext:292) - Root WebApplicationContext: initialization completed in 354 ms
+2023-05-19 13:29:37,167 [restartedMain] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration(logDataSources:98) - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:994bb8ff-e7f5-4a1b-a35f-af866ee207c1'
+2023-05-19 13:29:37,202 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(buildNativeEntityManagerFactory:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 13:29:37,214 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(openEntityManagerInViewInterceptor:223) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-19 13:29:37,265 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(startServer:59) - LiveReload server is running on port 35729
+2023-05-19 13:29:37,273 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer(start:220) - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-19 13:29:37,280 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(onApplicationEvent:63) - Condition evaluation unchanged
+2023-05-19 13:30:09,445 [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(onApplicationEvent:211) - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-19 13:30:09,604 [Thread-28] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(destroy:651) - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 13:30:09,807 [Thread-28] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter(destroy:224) - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-19 13:30:10,466 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate(registerRepositoriesIn:132) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-19 13:30:10,470 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate(registerRepositoriesIn:201) - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-05-19 13:30:10,567 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer(initialize:108) - Tomcat initialized with port(s): 8080 (http)
+2023-05-19 13:30:10,594 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(prepareWebApplicationContext:292) - Root WebApplicationContext: initialization completed in 425 ms
+2023-05-19 13:30:10,613 [restartedMain] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration(logDataSources:98) - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:116fd3f3-fdd9-44b0-ad0d-892870ca7336'
+2023-05-19 13:30:10,672 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(buildNativeEntityManagerFactory:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 13:30:10,691 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(openEntityManagerInViewInterceptor:223) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-19 13:30:10,778 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(startServer:59) - LiveReload server is running on port 35729
+2023-05-19 13:30:10,783 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer(start:220) - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-19 13:30:10,788 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(onApplicationEvent:63) - Condition evaluation unchanged
+2023-05-19 13:30:12,219 [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(onApplicationEvent:211) - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-19 13:30:12,372 [Thread-32] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(destroy:651) - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 13:30:12,580 [Thread-32] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter(destroy:224) - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-19 13:30:12,904 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate(registerRepositoriesIn:132) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-19 13:30:12,908 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate(registerRepositoriesIn:201) - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-05-19 13:30:12,970 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer(initialize:108) - Tomcat initialized with port(s): 8080 (http)
+2023-05-19 13:30:12,990 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(prepareWebApplicationContext:292) - Root WebApplicationContext: initialization completed in 262 ms
+2023-05-19 13:30:13,004 [restartedMain] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration(logDataSources:98) - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:1432c600-3085-42e1-84ad-ff72d27d01ef'
+2023-05-19 13:30:13,041 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(buildNativeEntityManagerFactory:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 13:30:13,052 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(openEntityManagerInViewInterceptor:223) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-19 13:30:13,104 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(startServer:59) - LiveReload server is running on port 35729
+2023-05-19 13:30:13,111 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer(start:220) - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-19 13:30:13,115 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(onApplicationEvent:63) - Condition evaluation unchanged
+2023-05-19 13:30:22,747 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet(initServletBean:525) - Initializing Servlet 'dispatcherServlet'
+2023-05-19 13:30:22,749 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet(initServletBean:547) - Completed initialization in 1 ms
+2023-05-19 13:31:06,602 [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(onApplicationEvent:211) - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-19 13:31:06,771 [Thread-36] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(destroy:651) - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 13:31:06,976 [Thread-36] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter(destroy:224) - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-19 13:31:07,407 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate(registerRepositoriesIn:132) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-19 13:31:07,411 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate(registerRepositoriesIn:201) - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-05-19 13:31:07,475 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer(initialize:108) - Tomcat initialized with port(s): 8080 (http)
+2023-05-19 13:31:07,500 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(prepareWebApplicationContext:292) - Root WebApplicationContext: initialization completed in 310 ms
+2023-05-19 13:31:07,515 [restartedMain] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration(logDataSources:98) - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:255a3262-30f3-4fa8-8646-122122d120e9'
+2023-05-19 13:31:07,555 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(buildNativeEntityManagerFactory:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 13:31:07,572 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(openEntityManagerInViewInterceptor:223) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-19 13:31:07,639 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(startServer:59) - LiveReload server is running on port 35729
+2023-05-19 13:31:07,651 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer(start:220) - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-19 13:31:07,655 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(onApplicationEvent:63) - Condition evaluation unchanged
+2023-05-19 13:31:51,980 [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(onApplicationEvent:211) - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-19 13:31:52,146 [Thread-40] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(destroy:651) - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 13:31:52,354 [Thread-40] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter(destroy:224) - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-19 13:31:52,665 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate(registerRepositoriesIn:132) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-19 13:31:52,669 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate(registerRepositoriesIn:201) - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-05-19 13:31:52,731 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer(initialize:108) - Tomcat initialized with port(s): 8080 (http)
+2023-05-19 13:31:52,762 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(prepareWebApplicationContext:292) - Root WebApplicationContext: initialization completed in 260 ms
+2023-05-19 13:31:52,783 [restartedMain] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration(logDataSources:98) - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:179d5ca8-a11e-4891-be12-a988c800defe'
+2023-05-19 13:31:52,819 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(buildNativeEntityManagerFactory:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 13:31:52,833 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(openEntityManagerInViewInterceptor:223) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-19 13:31:52,885 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(startServer:59) - LiveReload server is running on port 35729
+2023-05-19 13:31:52,897 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer(start:220) - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-19 13:31:52,900 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(onApplicationEvent:63) - Condition evaluation unchanged
+2023-05-19 13:31:55,620 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet(initServletBean:525) - Initializing Servlet 'dispatcherServlet'
+2023-05-19 13:31:55,620 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet(initServletBean:547) - Completed initialization in 0 ms
+2023-05-19 13:32:40,071 [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(onApplicationEvent:211) - Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2023-05-19 13:32:40,272 [Thread-44] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(destroy:651) - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 13:32:40,479 [Thread-44] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter(destroy:224) - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-19 13:32:40,852 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate(registerRepositoriesIn:132) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-19 13:32:40,856 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate(registerRepositoriesIn:201) - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-05-19 13:32:40,907 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer(initialize:108) - Tomcat initialized with port(s): 8080 (http)
+2023-05-19 13:32:40,926 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(prepareWebApplicationContext:292) - Root WebApplicationContext: initialization completed in 269 ms
+2023-05-19 13:32:40,937 [restartedMain] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration(logDataSources:98) - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:37669dec-d00a-41d1-aedf-7ad73711489a'
+2023-05-19 13:32:40,968 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(buildNativeEntityManagerFactory:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 13:32:40,981 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(openEntityManagerInViewInterceptor:223) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-19 13:32:41,036 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(startServer:59) - LiveReload server is running on port 35729
+2023-05-19 13:32:41,048 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer(start:220) - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-19 13:32:41,051 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(onApplicationEvent:63) - Condition evaluation unchanged
+2023-05-19 13:32:43,308 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet(initServletBean:525) - Initializing Servlet 'dispatcherServlet'
+2023-05-19 13:32:43,309 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet(initServletBean:547) - Completed initialization in 1 ms
+2023-05-19 13:44:33,522 [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(onApplicationEvent:211) - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-19 13:44:33,765 [Thread-48] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(destroy:651) - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 13:44:33,969 [Thread-48] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter(destroy:224) - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-19 13:44:34,090 [restartedMain] ERROR org.springframework.boot.SpringApplication(reportFailure:821) - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Could not initialize Log4J2 logging from file:./log4j.xml
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66) ~[spring-boot-2.7.12.jar:2.7.12]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.example.sbprojectex.SbprojectexApplication.main(SbprojectexApplication.java:11) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.12.jar:2.7.12]
+Caused by: java.lang.IllegalStateException: Could not initialize Log4J2 logging from file:./log4j.xml
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:230) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:193) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:169) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332) ~[spring-boot-2.7.12.jar:2.7.12]
+	... 23 more
+Caused by: java.io.FileNotFoundException: .\log4j.xml (지정된 파일을 찾을 수 없습니다)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184) ~[?:?]
+	at java.net.URL.openStream(URL.java:1165) ~[?:?]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.getConfigurationSource(Log4J2LoggingSystem.java:241) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.load(Log4J2LoggingSystem.java:236) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:221) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:193) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:169) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332) ~[spring-boot-2.7.12.jar:2.7.12]
+	... 23 more
+2023-05-19 13:44:38,901 [restartedMain] ERROR org.springframework.boot.SpringApplication(reportFailure:821) - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Could not initialize Log4J2 logging from file:./log4j.xml
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66) ~[spring-boot-2.7.12.jar:2.7.12]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.example.sbprojectex.SbprojectexApplication.main(SbprojectexApplication.java:11) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.12.jar:2.7.12]
+Caused by: java.lang.IllegalStateException: Could not initialize Log4J2 logging from file:./log4j.xml
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:230) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:193) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:169) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332) ~[spring-boot-2.7.12.jar:2.7.12]
+	... 23 more
+Caused by: java.io.FileNotFoundException: .\log4j.xml (지정된 파일을 찾을 수 없습니다)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184) ~[?:?]
+	at java.net.URL.openStream(URL.java:1165) ~[?:?]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.getConfigurationSource(Log4J2LoggingSystem.java:241) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.load(Log4J2LoggingSystem.java:236) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:221) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:193) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:169) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332) ~[spring-boot-2.7.12.jar:2.7.12]
+	... 23 more
+2023-05-19 13:45:08,723 [restartedMain] ERROR org.springframework.boot.SpringApplication(reportFailure:821) - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Could not initialize Log4J2 logging from file:./log4j2.xml
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66) ~[spring-boot-2.7.12.jar:2.7.12]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.example.sbprojectex.SbprojectexApplication.main(SbprojectexApplication.java:11) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.12.jar:2.7.12]
+Caused by: java.lang.IllegalStateException: Could not initialize Log4J2 logging from file:./log4j2.xml
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:230) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:193) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:169) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332) ~[spring-boot-2.7.12.jar:2.7.12]
+	... 23 more
+Caused by: java.io.FileNotFoundException: .\log4j2.xml (지정된 파일을 찾을 수 없습니다)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184) ~[?:?]
+	at java.net.URL.openStream(URL.java:1165) ~[?:?]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.getConfigurationSource(Log4J2LoggingSystem.java:241) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.load(Log4J2LoggingSystem.java:236) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:221) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:193) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:169) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332) ~[spring-boot-2.7.12.jar:2.7.12]
+	... 23 more

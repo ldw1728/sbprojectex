@@ -1,0 +1,10 @@
+[2023-05-19 16:19:52,784] [REQUEST] - Starting SbprojectexApplication using Java 11.0.16 on DESKTOP-LAFOB4V with PID 20532 (C:\vscworkspace\sbprojectex\bin\main started by zckxw in C:\vscworkspace\sbprojectex)
+[2023-05-19 16:19:52,788] [REQUEST] - No active profile set, falling back to 1 default profile: "default"
+[2023-05-19 16:19:53,327] [REQUEST] - -----------    context Initialized    -----------
+[2023-05-19 16:19:53,590] [REQUEST] - Started SbprojectexApplication in 0.919 seconds (JVM running for 38.254)
+[2023-05-19 16:21:07,608] [REQUEST] - -----------    context Destroyed    -----------
+[2023-05-19 16:21:07,984] [REQUEST] - Starting SbprojectexApplication using Java 11.0.16 on DESKTOP-LAFOB4V with PID 20532 (C:\vscworkspace\sbprojectex\bin\main started by zckxw in C:\vscworkspace\sbprojectex)
+[2023-05-19 16:21:07,989] [REQUEST] - No active profile set, falling back to 1 default profile: "default"
+[2023-05-19 16:21:08,526] [REQUEST] - -----------    context Initialized    -----------
+[2023-05-19 16:21:08,737] [REQUEST] - Started SbprojectexApplication in 0.865 seconds (JVM running for 113.402)
+[2023-05-19 16:21:18,481] [REQUEST] - -----------    context Destroyed    -----------
