@@ -22,7 +22,7 @@
 
         <!-- 파일 출력 -->
         <RollingFile name="InfoAppender"
-			fileName="logs/server.log" filePattern="%d{yyyy-MM-dd}/server.log">
+			fileName="logs/server.log" filePattern="logs/server.log.%d{yyyy-MM-dd}">
 			<PatternLayout pattern="${STDOUT_BS}" />
             <!-- 밑의 태그를 이용하여 Level별로 로그를 남길 수 있다. -->
 			<LevelRangeFilter minLevel="INFO" maxLevel="INFO"
@@ -39,7 +39,7 @@
 		</RollingFile>
 
         <RollingFile name="ReqAppender"
-			fileName="logs/reqInfo.log" filePattern="%d{yyyy-MM-dd}/reqInfo.log">
+			fileName="logs/reqInfo.log" filePattern="logs/reqInfo.log.%d{yyyy-MM-dd}">
 			<PatternLayout pattern="${REQUEST_LOG}" />
             <!-- 밑의 태그를 이용하여 Level별로 로그를 남길 수 있다. -->
 			<LevelRangeFilter minLevel="INFO" maxLevel="INFO"
@@ -70,10 +70,6 @@
         </logger>
         <logger name="com.example.sbprojectex" level="DEBUG" additivity="false">
             <AppenderRef ref="CONSOLE_STDOUT_ST"/>
-        </logger>
-        <logger name="com.example.sbprojectex.Filter.CustomFilter" level="DEBUG" additivity="false">
-            <AppenderRef ref="CONSOLE_REQUEST_LOG_ST"/>
-            <AppenderRef ref="ReqAppender"/>
         </logger>
         <logger name="com.example.sbprojectex.Filter.RequestCachingFilter" level="DEBUG" additivity="false">
             <AppenderRef ref="CONSOLE_REQUEST_LOG_ST"/>
